@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed account of the Shakahola cult tragedy and its discovery">
+    <title>Shakahola Cult Tragedy</title>
+    <link rel="stylesheet" href="/static/assets/css/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .timeline {
+            margin: 20px auto;
+            padding: 20px;
+            background: #ddd;
+            border-radius: 8px;
+        }
+
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Shakahola Tragedy: Blunders and the Discovery of a Cult</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#survivors">Survivors</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>The Shakahola tragedy shook the nation when a series of deaths linked to a dangerous cult were uncovered. This section provides an introduction to the events that unfolded.</p>
+         <img src="../../static/images/harun-pix.jpg" alt="Shakahola Massacre Scene" style="width:100%; max-width:600px; height:auto;">
+    </section>
+
+    <section id="timeline" class="timeline">
+        <h2>Timeline of Events</h2>
+        <p>Explore the key events that led to the tragedy.</p>
+        <div id="timeline-embed"></div>
+        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+        <script>
+            const timelineData = {
+                title: { text: "Timeline of the Shakahola Tragedy" },
+                events: [
+                    {
+                        start_date: { year: "2022", month: "5", day: "1" },
+                        text: { headline: "Cult Formation", text: "The formation of the cult led by a self-proclaimed pastor." }
+                    },
+                    {
+                        start_date: { year: "2024", month: "3", day: "15" },
+                        text: { headline: "Massacre Escalation", text: "The discovery of the cult's fasting rituals." }
+                    }
+                ]
+            };
+            const options = { height: "600", language: "en" };
+            new TL.Timeline("timeline-embed", timelineData, options);
+        </script>
+    </section>
+
+    <section id="survivors">
+        <h2>Survivor Stories</h2>
+        <p>Hear the harrowing testimonies of survivors.</p>
+        <ul>
+            <li>"I thought it was the path to enlightenment but barely survived." – Survivor A</li>
+            <li>"It was impossible to escape without help." – Survivor B</li>
+        </ul>
+    </section>
+
+    <section id="impact">
+        <h2>The Impact</h2>
+        <p>The tragedy has sparked debates about religious extremism and government intervention.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="image1.jpg" data-lightbox="shakahola" data-title="Shakahola Site"><img src="image1_thumb.jpg" alt="Image 1"></a>
+            <a href="image2.jpg" data-lightbox="shakahola" data-title="Investigation in Progress"><img src="image2_thumb.jpg" alt="Image 2"></a>
+        </div>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>The Shakahola tragedy serves as a reminder of the dangers of manipulation. Justice and accountability remain critical as investigations continue.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tragedy Watch. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>
